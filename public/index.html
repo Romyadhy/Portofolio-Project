@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortoFolio | Romyadhy</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <script defer src="main.js"></script>
+    <!-- Feathers Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- link Logo Start-->
+    <link rel="icon"href="https://romyadhy.github.io/Portofolio/dist/img/icon/favicon-16x16.png">
+    <!-- Logo End -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- <base href="/Portofolio-Tailwind"> -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="scroll-smooth ">
+    <nav id="navbar" class="p-5 fixed top-0 left-0 w-full z-50 md:flex md:items-center md:justify-between transition-colors duration-300 ease-in-out">
+        <!-- Kiri -->
+        <div id="logo" class="md:text-2xl cursor-pointer mx-4 flex justify-between items-center font-extrabold">
+            <a href="index.html" class="">Romy</a>
+            <!-- icon menu -->
+            <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
+            </span>
+        </div>
+    
+        <!-- Kanan -->
+        <div class="mx-4">
+            <ul id="navlink" class="md:items-center w-full md:flex z-10 md:z-auto absolute md:static bg-transparent left-0 md:w-auto py-4 md:py-0 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[top-[-400px]" id="list-nav">
+                <li class="mx-4 my-4 md:my-0">
+                    <a href="index.html" class=" text-xl hover:text-gray-600 duration-500 font-semibold">Home</a>
+                </li>
+                <li class="mx-4 my-4 md:my-0">
+                    <a href="#about" class=" text-xl hover:text-gray-600 duration-500 font-semibold">About</a>
+                </li>
+                <li class="mx-4 my-4 md:my-0">
+                    <a href="#project" class=" text-xl hover:text-gray-600 duration-500 font-semibold">Project</a>
+                </li>
+                <li class="mx-4 my-4 md:my-0">
+                    <a href="#contact" class=" text-xl hover:text-gray-600 duration-500 font-semibold">Contack</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+      <!-- Hero Start -->
+      <section class="bg-gray-200">
+       
+        <div class=" flex items-center justify-center ">
+            <img src="https://romyadhy.github.io/Portofolio/dist/img/Romy_foto2.jpg" alt="foto" width="200px" class="rounded-full mt-[6rem] max-w-full h-auto border-1 border-gray-200 p-1">
+        </div>
+
+        <div class=" mt-4 md:text-2xl xl:text-3xl text-xl text-center leading-normal md:leading-8 xl:leading-10" >
+            <h2 class="italic font-semibold">Welcome to my <span class="text-gray-400">Portofolio</span> Website</h2>
+            <h1 class="font-bold">I PUTU ROMYADHY MAHAPUTRA</h1>
+            <p class="text-sm">Collage Student | Computer Science</p>
+            <p class="text-sm">Universitas Pendidikan Ganesha</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+              <path fill="#ffffff" fill-opacity="1" d="M0,128L40,122.7C80,117,160,107,240,133.3C320,160,400,224,480,218.7C560,213,640,139,720,122.7C800,107,880,149,960,154.7C1040,160,1120,128,1200,122.7C1280,117,1360,139,1400,149.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+            </svg>
+        </div> 
+    </section>
+    <!-- Hero End -->
+    
+     <!-- About Start -->
+     <section class="grid bg-[url('\img\my-1.jpg') bg-white" id="about">
+        <div class="text-center font-bold text-4xl mb-[3rem]">
+            <h1><span class="text-gray-500">About</span> Me</h1>
+        </div>
+        <div class=" grid gap-4 md:grid-cols-2 text-center md:mx-8">
+            <div class="h-15 bg-slate-300 rounded-lg mx-2 md:mx-4">
+                <h2 class="text-center mb-2 font-semibold text-lg">Let's see personal describes</h2>
+                <p class="py-2 px-2 md:p-4">My name is I Putu Romyadhy Mahaputra NIM: 2215101052, my friends call me "Rom" or "Romy". I am a student in Undiksha University, expecially in Computer Science 2th.</p>
+            </div>
+            <div class="h-15 bg-slate-300 rounded-lg mx-2 md:mx-4">
+                <h2 class="text-center mb-2 font-semibold text-lg">More About My Previous Study</h2>
+                <p class="py-2 px-2 md:p-4">My educational journey before going to UNDIKSHA, I went to a state senior high school, namely, SMA Negeri 1 Tampaksiring, which is located in Tampaksiring, Gianyar.</p>
+            </div>
+            <div class="h-15 bg-slate-300 rounded-lg mx-2 md:mx-4">
+                <h2  class="text-center mb-2 font-semibold text-lg">Interst and Hobby</h2>
+                <p class="py-2 px-2 md:p-4">For now I am quite interested in website programming, and I want to explore more there. Therefore, my hobby is not far from that, I like to design websites (although still simple). I also like playing games, and listening to songs.</p>
+            </div>
+            <div class="h-15 bg-slate-300 rounded-lg mx-2 md:mx-4">
+                <h2  class="text-center mb-2 font-semibold text-lg">Organizational Experience</h2>
+                <p class="py-2 px-2 md:p-4">In the organization, my experience is still quite small, I have joined the campus committee, more precisely at PEMIRA FTK 2023. Until now I am also participating in the committee for the vocational anniversary event or known as INTEGER.</p>
+            </div>
+        </div>        
+    </section>
+     <!-- About  End -->
+
+       <!-- Card Start -->
+    <section class="mt-[3rem]" id="project">
+        <div>
+            <!-- Judul -->
+        <div class="text-center">
+            <h3 class="font-bold text-3xl my-[2.5rem]">My Personal <span class="text-gray-500">Project</span></h3>
+        </div>
+
+        <!-- Card -->
+        <div class="container mx-auto sm:px-4">
+            <div class="flex flex-wrap  text-center mb-3">
+              <div class="flex flex-wrap ">
+                <div class="md:w-1/3 pr-4 pl-4 mb-3">
+                  <div class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300">
+                    <a href="https://romyadhy.github.io/WebKopi-WPU/indeks.html" target="_blank">
+                        <img src="https://romyadhy.github.io/Portofolio/dist/img/kopi.png"  class="w-full rounded rounded-t" alt="Kopi" />
+                    </a>
+                    <div class="flex-auto p-6">
+                      <p class="mb-0 font-semibold">This is my preview project that I had create, this is like coffe shop, but its only the frontend, and it's not yet have any fiture like search, bracket, and so own</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:w-1/3 pr-4 pl-4 mb-3">
+                  <div class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300">
+                    <a href="https://romyadhy.github.io/QuizApp/index.html" target="_blank">
+                        <img src="https://romyadhy.github.io/Portofolio/dist/img/quizApp.png" class="w-full rounded rounded-t" alt="QuizApp" />
+                    </a>
+                    <div class="flex-auto p-6">
+                      <p class="mb-0 font-semibold">This is the project using vanilla JS, I create this for study  in deep about using JS in real case. But it have minim fiture, i just desain it simple, to test the JS only. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:w-1/3 pr-4 pl-4 mb-3">
+                  <div class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300">
+                    <a href="https://romyadhy.github.io/countdownTimer/index.html" target="_blank">
+                        <img src="https://romyadhy.github.io/Portofolio/dist/img/countdown.png" class="w-full rounded rounded-t" alt="countdown" />
+                    </a>
+                    <div class="flex-auto p-6">
+                      <p class="mb-0 font-semibold">This is the countdwon for the new year in 2024 (at 1 January 2024), but i have an error for the minute and second calculation, so it's still "tester" for me.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+        </div>
+        <!-- Task Project -->
+        <div class="text-center my-6 mt-10">
+            <h3 class="font-bold text-3xl">My Task Collage <span class="text-gray-500">Project</span></h3>
+        </div>
+        <!-- Card in Task Project -->
+        <div class="container mx-auto sm:px-4">
+            <div class="flex flex-wrap  text-center mb-3">
+              <div class="flex flex-wrap ">
+                <!-- Card1 -->
+                <div class="md:w-1/3 pr-4 pl-4 mb-3">
+                    <div class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300">
+                      <a href="https://romyadhy.github.io/Task3/index.html" target="_blank">
+                          <img src="https://romyadhy.github.io/Portofolio/dist/img/task1.png" class="w-full rounded rounded-t" alt="projectVue" />
+                      </a>
+                      <div class="flex-auto p-6">
+                        <p class="mb-0 font-semibold">This is the thrid task, that in this task I create a simple web that can calculate the Fibonancci and Geometry Volume</p>
+                      </div>
+                    </div>
+                </div>
+                <!-- Card2 -->
+                <div class="md:w-1/3 pr-4 pl-4 mb-3">
+                    <div class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300">
+                      <a href="https://romyadhy.github.io/TaskWebCollage/public/index.html" target="_blank">
+                          <img src="https://romyadhy.github.io/Portofolio/dist/img/simbarProject.png" class="w-full rounded rounded-t" alt="projectVue" />
+                      </a>
+                      <div class="flex-auto p-6">
+                        <p class="mb-0 font-semibold">This is my simple page about implement data binding in Vue. I create like a shopping cart</p>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+       <div>
+         <!-- Waves -->
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffff" 
+            fill-opacity="1" d="M0,224L48,240C96,256,192,288,288,272C384,256,480,192,576,181.3C672,171,768,213,864,234.7C960,256,1056,256,1152,234.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+       </div>
+    </section>
+    <!-- Card End -->
+
+    <!-- Footer Start -->
+<footer class="bg-gray-900 text-center">
+    <!-- Social Icons -->
+    <div class="socials py-4 flex flex-row items-center justify-center">
+      <a href="#" class="text-white mx-4 hover:text-gray-900">
+        <i data-feather="instagram"></i>
+      </a>
+      <a href="#" class="text-white mx-4 hover:text-gray-900">
+        <i data-feather="youtube"></i>
+      </a>
+      <a href="#" class="text-white mx-4 hover:text-gray-900">
+        <i data-feather="github"></i>
+      </a>
+      <a href="#" class="text-white mx-4 hover:text-gray-900">
+        <i data-feather="twitter"></i>
+      </a>
+      <a href="#" class="text-white mx-4 hover:text-gray-900">
+        <i data-feather="linkedin"></i>
+      </a>
+      <a href="#" class="text-white mx-4 hover:text-gray-900">
+        <i data-feather="music"></i>
+      </a>
+    </div>
+  
+    <!-- Links -->
+    <div class="links ">
+      <a href="#home" class="text-white px-4 py-2 hover:text-gray-900">Home</a>
+      <a href="#about" class="text-white px-4 py-2 hover:text-gray-900">About</a>
+      <a href="#menu" class="text-white px-4 py-2 hover:text-gray-900">Project</a>
+      <a href="#contack" class="text-white px-4 py-2 hover:text-gray-900">Contact</a>
+    </div>
+  
+    <!-- Credit -->
+    <div class="credit text-sm py-4">
+      <p class="text-white">Creaated by <a href="" class="font-bold text-white">Romyadhy</a>. | &copy; 2024</p>
+    </div>
+  </footer>
+  <!-- Footer Ended -->
+
+  <script>
+    feather.replace();
+  </script>
+  
+</body>
+</html>
