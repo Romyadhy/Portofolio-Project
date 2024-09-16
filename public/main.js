@@ -49,5 +49,13 @@ function Menu(e) {
     }
 }
 
-
+  // Ganti gambar secara otomatis setiap 5 detik
+  const images = [ 'img/my-2.jpg', 'img/my-3.jpg']; // Ganti dengan gambar yang sesuai
+  let currentIndex = 0;
   
+  function changeImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    document.getElementById('about-image').src = images[currentIndex];
+  }
+
+  setInterval(changeImage, 5000); // Ubah gambar setiap 5 detik

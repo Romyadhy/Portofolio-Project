@@ -15,6 +15,8 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- <base href="/Portofolio-Tailwind"> -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 </head>
 <body class="scroll-smooth ">
     <nav id="navbar" class="p-5 fixed top-0 left-0 w-full z-50 md:flex md:items-center md:justify-between transition-colors duration-300 ease-in-out">
@@ -66,7 +68,7 @@
     <!-- Hero End -->
     
      <!-- About Start -->
-     <section class="grid bg-[url('\img\my-1.jpg') bg-white" id="about">
+     <!-- <section class="grid bg-white" id="about">
         <div class="text-center font-bold text-4xl mb-[3rem]">
             <h1><span class="text-gray-500">About</span> Me</h1>
         </div>
@@ -88,7 +90,27 @@
                 <p class="py-2 px-2 md:p-4">In the organization, my experience is still quite small, I have joined the campus committee, more precisely at PEMIRA FTK 2023. Until now I am also participating in the committee for the vocational anniversary event or known as INTEGER.</p>
             </div>
         </div>        
+    </section> -->
+    <section class="flex flex-col md:flex-row items-center justify-between px-6 md:px-12 lg:px-24">
+      <!-- Text Section -->
+      <div class="md:w-1/2 mb-8 md:mb-0 mx-4">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">Hi, I'm I Putu Romyadhy Mahaputra</h1>
+        <p class="text-lg text-gray-700 mb-6">
+          I am a Computer Science student at Universitas Pendidikan Ganesha. I have a strong passion for web development, whether it's frontend or backend. Alongside that, I’m currently diving into the world of cybersecurity, driven by both formal education and self-learning. I enjoy and loving what I'am doing so far.
+        </p>
+        <p class="text-lg text-gray-700 mb-6">
+          In my free time, you’ll often find me gaming, hiking, or working out. My journey into web development has been largely self-taught, and I continue to expand my skills every day. With a growing interest in cybersecurity, I’m always seeking new challenges and opportunities to enhance my knowledge.
+        </p>
+      </div>
+    
+      <!-- Image Section -->
+      <div class="md:w-1/2 relative">
+        <div class="w-full h-full rounded-lg overflow-hidden shadow-lg">
+          <img src="img/my-1.jpg" alt="Your Image" id="about-image" class="w-full object-cover rounded-lg transition-opacity duration-1000 ease-in-out">
+        </div>
+      </div>
     </section>
+    
      <!-- About  End -->
 
        <!-- Card Start -->
@@ -181,7 +203,7 @@
     <!-- Card End -->
 
     <!-- Footer Start -->
-<footer class="bg-gray-900 text-center">
+<footer class="bg-gray-700 text-center">
     <!-- Social Icons -->
     <div class="socials py-4 flex flex-row items-center justify-center">
       <a href="#" class="text-white mx-4 hover:text-gray-900">
