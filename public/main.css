@@ -1,0 +1,36 @@
+footer .space-x-6 > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 0 8px;
+    margin-right: 0 8px;
+  }
+  
+  
+footer div a i {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px; 
+    padding: 0.5rem; 
+    border-radius: 50%;
+    transition: border-color 0.3s ease, padding 0.3s ease, background-color 0.3s ease, stroke 0.3s ease; 
+  }
+  
+footer div a i:hover {
+    border-color: rgb(104, 101, 101);
+    padding: 0.75rem; 
+    background-color: #212529; 
+  }
+
+/* .links a:hover{
+  background-color: red;
+} */
+
+
+
+  
+  /* .iconborder:hover svg {
+    stroke: white; 
+  } */
